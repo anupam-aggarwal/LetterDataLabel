@@ -238,7 +238,7 @@ def img2line(image):
 
 print("Initial")
 print(sys.argv[1])
-img = cv2.imread(sys.argv[1])
+img = cv2.imread("./page/image.jpg")
 # img = cv2.resize(img,(2,2))
 ori = np.copy(img)
 img = bg_filter(img)
