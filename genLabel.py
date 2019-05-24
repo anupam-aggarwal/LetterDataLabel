@@ -40,3 +40,5 @@ for i in range(len(db)):
 np.save("labelledData/dat"+str(int(time.time())),ls)
 shutil.rmtree("letters")
 os.mkdir("letters")
+shutil.rmtree("database")
+os.mkdir("database")

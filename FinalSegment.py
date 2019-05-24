@@ -237,7 +237,7 @@ def img2line(image):
 # In[3]:
 
 print("Initial")
-print(sys.argv[1])
+#print(sys.argv[1])
 img = cv2.imread("./page/image.jpg")
 # img = cv2.resize(img,(2,2))
 ori = np.copy(img)
