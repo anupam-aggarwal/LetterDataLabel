@@ -15,6 +15,8 @@ import shutil
 
 
 files = os.listdir("database")
+files = sorted(files)
+print(files)
 COL = np.load("COL.npy")
 
 
