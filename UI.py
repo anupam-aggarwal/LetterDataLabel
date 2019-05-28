@@ -7,7 +7,7 @@ import os
 import sys
 import _pickle as pickle
 import shutil
-
+from FinalSegment import segment
 app = Flask(__name__,static_url_path = "/words", template_folder='UI/templates')
 app.config['SECRET_KEY'] = 'oh_so_secret'
 
@@ -104,4 +104,5 @@ def upload_page(filename):
 
 if __name__ == '__main__':
 #	app.run(debug=True)
+	segment(cv2.imread("./page/image.jpg"))
 	app.run()

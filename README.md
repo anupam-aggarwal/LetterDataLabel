@@ -9,8 +9,6 @@ This repository contains Python code for a web UI to help in labelling images co
 # Usage
 ---> place image to be segmented in page folder with name "image.jpg" and delete any images in letters folder and files in database folder if they contains any.
 
----> use python FinalSegment.py to create BW.npy and COL.npy
-
 ---> python UI.py
 
 ---> go to web browser and type 127.0.0.1:5000/words/process and label the images
