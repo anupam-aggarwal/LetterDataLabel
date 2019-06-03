@@ -18,8 +18,7 @@ files = os.listdir("database")
 files = sorted(files)
 print(files)
 COL = np.load("COL.npy")
-
-
+BW = np.load("BW.npy")
 # In[ ]:
 
 
@@ -33,7 +32,7 @@ for file in files:
 
 ls = []
 for i in range(len(db)):
-    ls.append([db[i][0],COL[i],db[i][1]])    
+    ls.append([BW[i],COL[i],db[i][1]])    
 
 
 # In[ ]:

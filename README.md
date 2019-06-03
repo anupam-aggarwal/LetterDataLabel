@@ -7,7 +7,7 @@ This repository contains Python code for a web UI to help in labelling images co
 3. Flask framework
 
 # Usage
----> place image to be segmented in page folder with name "image.jpg" and delete any images in letters folder and files in database folder if they contains any.
+---> place image to be segmented in page folder and delete any images in letters folder and files in database folder if they contains any.
 
 ---> python UI.py
 

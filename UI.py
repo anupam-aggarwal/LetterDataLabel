@@ -104,5 +104,7 @@ def upload_page(filename):
 
 if __name__ == '__main__':
 #	app.run(debug=True)
+	fi = os.listdir("page")[0]
+	os.rename("./page/"+fi,"./page/image.jpg")
 	segment(cv2.imread("./page/image.jpg"))
 	app.run()
